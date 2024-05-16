@@ -1,0 +1,10 @@
+pNums = make_unique<vector<int>>(nums);
+//...
+ auto a = [ptr = move(pNums)]()
+ {
+  // use ptr
+ };
+int y = [] (int first, int second)
+{
+ return first + second;
+};
